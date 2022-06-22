@@ -1,0 +1,1091 @@
+1653015366832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileR31VIU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653015372207	Marionette	INFO	Listening on port 57538
+1653015372251	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1653016677226	Marionette	INFO	Stopped listening on port 57538
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rtificate errors will be ignored for this session
+1653016677288	Marionette	INFO	Stopped listening on port 57659
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653015885302	Marionette	INFO	Listening on port 57712
+1653015885807	Marionette	WARN	TLS certificate errors will be ignored for this session
+1653016677048	Marionette	INFO	Stopped listening on port 57712
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653015926903	Marionette	INFO	Listening on port 57772
+1653015927131	Marionette	WARN	TLS certificate errors will be ignored for this session
+1653016677421	Marionette	INFO	Stopped listening on port 57772
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile9VCzEN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653015965648	Marionette	INFO	Listening on port 57835
+1653015965928	Marionette	WARN	TLS certificate errors will be ignored for this session
+1653016677077	Marionette	INFO	Stopped listening on port 57835
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileUXY6pZ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653016278898	Marionette	INFO	Listening on port 57939
+1653016279271	Marionette	WARN	TLS certificate errors will be ignored for this session
+1653016677070	Marionette	INFO	Stopped listening on port 57939
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile9tyYT1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653016317464	Marionette	INFO	Listening on port 57998
+1653016317507	Marionette	WARN	TLS certificate errors will be ignored for this session
+1653016677092	Marionette	INFO	Stopped listening on port 57998
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653016362511	Marionette	INFO	Listening on port 58060
+1653016362806	Marionette	WARN	TLS certificate errors will be ignored for this session
+1653016677071	Marionette	INFO	Stopped listening on port 58060
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofilecgOmsh"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653016472010	Marionette	INFO	Listening on port 58149
+1653016472368	Marionette	WARN	TLS certificate errors will be ignored for this session
+1653016677105	Marionette	INFO	Stopped listening on port 58149
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileGpaP8c"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653016655644	Marionette	INFO	Listening on port 58263
+1653016655956	Marionette	WARN	TLS certificate errors will be ignored for this session
+1653016677356	Marionette	INFO	Stopped listening on port 58263
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1653016696793	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileJlYT9x"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653016702152	Marionette	INFO	Listening on port 58346
+1653016702652	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+1653017459155	Marionette	INFO	Stopped listening on port 58346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653017347171	Marionette	INFO	Listening on port 60302
+1653017347389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1653017460482	Marionette	INFO	Stopped listening on port 60302
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653017367434	Marionette	INFO	Listening on port 60355
+1653017367478	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+1653017654549	Marionette	INFO	Stopped listening on port 60355
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653017448703	Marionette	INFO	Listening on port 60466
+1653017448774	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.axios.com/_next/static/chunks/pages/_app-ef2f61b0c87e6cc6.js, line 1: SyntaxError: invalid regexp group
+1653017655597	Marionette	INFO	Stopped listening on port 60466
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1653017666945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofilelj5l6N"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653017671567	Marionette	INFO	Listening on port 60646
+1653017671780	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+1653017713461	Marionette	INFO	Stopped listening on port 60646
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1653058413661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofilebArDRB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653058415929	Marionette	INFO	Listening on port 60968
+1653058416313	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+1653058450252	Marionette	INFO	Stopped listening on port 60968
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1653058708668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileoZUpMV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653058710736	Marionette	INFO	Listening on port 65397
+1653058710811	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+1653058735737	Marionette	INFO	Stopped listening on port 65397
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1653067262165	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofiledKJtw3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653067264413	Marionette	INFO	Listening on port 64716
+1653067264844	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+1653067290403	Marionette	INFO	Stopped listening on port 64716
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1653073760368	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile24T4oL"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1653073764818	Marionette	INFO	Listening on port 51289
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+[Parent 25312, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1653092565696	Marionette	INFO	Stopped listening on port 51289
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+775970	Marionette	INFO	Listening on port 51337
+1653073776424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+1653073815430	Marionette	INFO	Stopped listening on port 51337
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655632561518	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileeyio6f"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655632563791	Marionette	INFO	Listening on port 57245
+1655632564211	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+1655632598626	Marionette	INFO	Stopped listening on port 57245
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655636676750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile01QF3O"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655636681916	Marionette	INFO	Listening on port 57997
+1655636682241	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+1655636728847	Marionette	INFO	Stopped listening on port 57997
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655636852016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileNiGx2D"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655636856606	Marionette	INFO	Listening on port 57866
+1655636856976	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+1655636897031	Marionette	INFO	Stopped listening on port 57866
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+1655704688061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile9KU99m"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655704690436	Marionette	INFO	Listening on port 59799
+1655704690766	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+1655704722051	Marionette	INFO	Stopped listening on port 59799
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655705581316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofilelt8osY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655705583338	Marionette	INFO	Listening on port 58835
+1655705583403	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+1655705612540	Marionette	INFO	Stopped listening on port 58835
+[Child 2276, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 2276, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655706300740	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofilejAEy4L"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655706302815	Marionette	INFO	Listening on port 63579
+1655706302837	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 1 > scriptElement, line 2: ReferenceError: googletag is not defined
+1655706335947	Marionette	INFO	Stopped listening on port 63579
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655718366170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileIJsm9i"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655718370474	Marionette	INFO	Listening on port 55969
+1655718370527	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+1655718415126	Marionette	INFO	Stopped listening on port 55969
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655718778647	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile07VzUc"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655718783869	Marionette	INFO	Listening on port 56162
+1655718784095	Marionette	WARN	TLS certificate errors will be ignored for this session
+1655719229836	Marionette	INFO	Stopped listening on port 56162
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655718842388	Marionette	INFO	Listening on port 56223
+1655718842462	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655737261541	Marionette	INFO	Stopped listening on port 56223
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+t_mozprofileX7rVDf"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655718944024	Marionette	INFO	Listening on port 56280
+1655718944305	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655737261505	Marionette	INFO	Stopped listening on port 56280
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+t_mozprofilewBrvez"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655719041295	Marionette	INFO	Listening on port 56338
+1655719041381	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655737261336	Marionette	INFO	Stopped listening on port 56338
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+t_mozprofileacvMXH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655719097317	Marionette	INFO	Listening on port 56389
+1655719097359	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655737261532	Marionette	INFO	Stopped listening on port 56389
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+t_mozprofileVFlEyt"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655719166285	Marionette	INFO	Listening on port 51816
+1655719166445	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655737261365	Marionette	INFO	Stopped listening on port 51816
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+t_mozprofilek52bU3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655719222212	Marionette	INFO	Listening on port 51866
+1655719222676	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655737261171	Marionette	INFO	Stopped listening on port 51866
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ profile directory.
+1655719426006	Marionette	INFO	Listening on port 51936
+1655719426188	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655737261344	Marionette	INFO	Stopped listening on port 51936
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+t_mozprofileO8tDOZ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655719651869	Marionette	INFO	Listening on port 52042
+1655719652372	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655737261174	Marionette	INFO	Stopped listening on port 52042
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+t_mozprofilemlp7YY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655719696138	Marionette	INFO	Listening on port 52101
+1655719696190	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655737261622	Marionette	INFO	Stopped listening on port 52101
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ profile directory.
+1655719860360	Marionette	INFO	Listening on port 52174
+1655719860684	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655737261164	Marionette	INFO	Stopped listening on port 52174
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile9WQRS0"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655736731823	Marionette	INFO	Listening on port 63186
+1655736731916	Marionette	WARN	TLS certificate errors will be ignored for this session
+1655737261240	Marionette	INFO	Stopped listening on port 63186
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileMnU3HC"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655736835597	Marionette	INFO	Listening on port 63244
+1655736835638	Marionette	WARN	TLS certificate errors will be ignored for this session
+1655737261708	Marionette	INFO	Stopped listening on port 63244
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655736945756	Marionette	INFO	Listening on port 63301
+1655736946231	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+1655736999729	Marionette	INFO	Stopped listening on port 63301
+[Parent 6324, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655737259866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileW310gp"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655737267209	Marionette	INFO	Listening on port 64767
+1655737267477	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655761663286	Marionette	INFO	Stopped listening on port 64767
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+t_mozprofile7i5a4N"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655737764418	Marionette	INFO	Listening on port 64915
+1655737764472	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+1655737818486	Marionette	INFO	Stopped listening on port 64915
+JavaScript error: https://secure.quantserve.com/quant.js, line 2: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655797697496	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile7hbpBx"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655797702032	Marionette	INFO	Listening on port 63298
+1655797702525	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: TypeError: jQuery(...).dfp is not a function
+1655797749633	Marionette	INFO	Stopped listening on port 63298
+JavaScript error: https://secure.quantserve.com/quant.js, line 2: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380131,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655797983430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileaU1sD3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655797990894	Marionette	INFO	Listening on port 64111
+1655797991077	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 4: ReferenceError: getParselyDataFromDataLayer is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+1655798040587	Marionette	INFO	Stopped listening on port 64111
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655798402390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileuS2Iuz"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655798406917	Marionette	INFO	Listening on port 60995
+1655798407371	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+1655798458243	Marionette	INFO	Stopped listening on port 60995
+JavaScript error: https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/themes/herald/assets/js/min.js?ver=2.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/themes/herald/assets/js/min.js?ver=2.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/themes/herald/assets/js/min.js?ver=2.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/themes/herald/assets/js/min.js?ver=2.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/themes/herald/assets/js/min.js?ver=2.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/themes/herald/assets/js/min.js?ver=2.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/themes/herald/assets/js/min.js?ver=2.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/themes/herald/assets/js/min.js?ver=2.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/themes/herald/assets/js/min.js?ver=2.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/themes/herald/assets/js/min.js?ver=2.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/themes/herald/assets/js/min.js?ver=2.0, line 1: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655913493319	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileJOjBPB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655913495847	Marionette	INFO	Listening on port 51088
+1655913496017	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+1655913528773	Marionette	INFO	Stopped listening on port 51088
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655913657916	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofiletMNR3l"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655913660027	Marionette	INFO	Listening on port 55830
+1655913660104	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+1655913689322	Marionette	INFO	Stopped listening on port 55830
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655913856156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofilevyEqQc"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655913858158	Marionette	INFO	Listening on port 56030
+1655913858223	Marionette	WARN	TLS certificate errors will be ignored for this session
+1655913858297	Marionette	INFO	Stopped listening on port 56030
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655913891251	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile095Py2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655913893269	Marionette	INFO	Listening on port 56077
+1655913893311	Marionette	WARN	TLS certificate errors will be ignored for this session
+1655913893452	Marionette	INFO	Stopped listening on port 56077
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655913934280	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileqvQ7Gf"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655913936237	Marionette	INFO	Listening on port 56129
+1655913936333	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655918633300	Marionette	INFO	Stopped listening on port 56129
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655917545790	Marionette	INFO	Listening on port 52611
+1655917545808	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+1655917601602	Marionette	INFO	Stopped listening on port 52611
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655917633857	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofilemxuAsU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655917638612	Marionette	INFO	Listening on port 52762
+1655917638722	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: this.browser.driver.dialogObserver is null
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/themes/Newspaper-child/js/autocomplete.js?ver=8.6ph1ver5, line 3: ReferenceError: algoliasearch is not defined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: this.browser.driver.dialogObserver is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1655918635166	Marionette	INFO	Stopped listening on port 52762
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: TypeError: jQuery(...).dfp is not a function
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+1655917837521	Marionette	INFO	Stopped listening on port 52972
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655917991039	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileXqyYZI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655917995227	Marionette	INFO	Listening on port 53140
+1655917995397	Marionette	WARN	TLS certificate errors will be ignored for this session
+1655918636381	Marionette	INFO	Stopped listening on port 53140
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655918036199	Marionette	INFO	Listening on port 53194
+1655918036626	Marionette	WARN	TLS certificate errors will be ignored for this session
+1655918637595	Marionette	INFO	Stopped listening on port 53194
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1655918668325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileAimkVM"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655918672493	Marionette	INFO	Listening on port 53345
+1655918672618	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofileyPy071"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1655918710218	Marionette	INFO	Listening on port 53396
+1655918710545	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/2/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/3/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/4/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/wp-content/plugins/dfp-ads/assets/js/dfp-ads.min.js?ver=5.9.2, line 1: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.pehub.com/news-briefs/page/5/ line 2 > scriptElement, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-PF66DBF, line 36: uncaught exception: [object Object]
+1655918748083	Marionette	INFO	Stopped listening on port 53396
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
