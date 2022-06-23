@@ -30,7 +30,7 @@ if not os.path.exists('..\database'):
     os.makedirs('..\database')
 if not os.path.exists('..\cache\previously_seen'):
     os.makedirs('..\cache\previously_seen')
-filename = '..\cache\previously_seen\previously_seen_{}.csv'.format(today_date)
+filename = '..\cache\previously_seen\previously_seen_{}.csv'.format(today_date[:7])
 database = '..\database\database_{}.csv'.format(today_date)
 bankruptcy_ipo = '..\database\\bankruptcy_ipo_{}.csv'.format(today_date)
 # handles the 5 days window for duplicate deletion (in already_seen file)
@@ -43,11 +43,19 @@ if os.path.isfile(filename):
     data = data.split('\n')[:-1]
     # for tab seperated inputs 
     for x in data:
-        x = x[40:]  
+        x= x.split(',')
+        if isinstance(x, list) and len(x)== 3:
+            x = x[2]
+        elif isinstance(x, list) and len(x)>3:
+            x = ",".join(x[2:])
+        else:
+            continue
         data_set.add(x)
     file.close()
 
-    
+# for x in data_set:
+#     print(x)
+
 if not os.path.isfile(database):
         file = open(database, 'w')
         file.write("Date_Collected,Date_Published,Source,Article_Name,Article_Link,Description,\
@@ -56,7 +64,7 @@ if not os.path.isfile(database):
 if not os.path.isfile(bankruptcy_ipo):
         file = open(bankruptcy_ipo, 'w')
         file.write("Date_Collected,Date_Published,Source,Article_Name,Article_Link,Description,\
-                    Article_Name_label,Article_Description_label,ER_Spacy,ML_label_Title\n")
+                    Keyword_label_article_name,Keyword_label_description,ER_Spacy,ML_label_Article_Name\n")
         file.close() 
 
 # calling all source scripts sequentially
