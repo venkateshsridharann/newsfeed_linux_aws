@@ -53,8 +53,6 @@ if os.path.isfile(filename):
         data_set.add(x)
     file.close()
 
-# for x in data_set:
-#     print(x)
 
 if not os.path.isfile(database):
         file = open(database, 'w')

@@ -5,7 +5,7 @@ import calendar
 
         
 def split_sources(arti):
-
+        
         data1 = arti.split(',')
         if data1[0][0] == "\"" and data1[0][-1] == "\"":
             date = data1[0][1:-1]

@@ -94,7 +94,7 @@ def label_maker(d):
 
 def ER_using_spacy(example_text):
     doc = nlp(example_text)
-    out = '|'.join([str((X.text +" ("+ X.label_+")")) for X in doc.ents])
+    out = '|'.join([str((X.text.strip(",") +" ("+ X.label_+")")) for X in doc.ents])
     return(out)
 
 
