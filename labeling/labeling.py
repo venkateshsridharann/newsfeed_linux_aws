@@ -3,7 +3,6 @@ import nltk
 import json
 import boto3
 import spacy
-import numpy as np
 import pandas as pd
 import pickle
 import en_core_web_sm
@@ -19,11 +18,6 @@ from nltk.tokenize import sent_tokenize, word_tokenize, PunktSentenceTokenizer
 
 # nltk.download('stopwords')
 # nltk.download('punkt')
-
-filename = 'pickle_file.pkl'
-# model_ = pickle.load(open(filename, 'rb'))
-# model=model_[0]
-# fitted_vectorizer = model_[1]
 
 data = {'Label':['Funding', 'Acquisition', 'Merger', 'Growth Equity','IPO','Noise'],
         'Label_id':[0,1,2,3,4,5]}
@@ -135,7 +129,3 @@ def label_creator(article):
         article["possible_ER_from_Comprehend"] = possible_ER_from_Comprehend
         
     return article
-
-# def ML_label(article):
-#     pred=model.predict(fitted_vectorizer.transform([article]))
-#     return category_id_df.query('Label_id=={}'.format(pred))['Label'].iloc[0]
