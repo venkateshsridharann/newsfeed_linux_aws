@@ -15,7 +15,7 @@ from labeling import *
 sys.path.append(os.path.abspath("..\\boto3"))
 from split_db_sources import *
 
-def extraction(url,data_set,seen,today_date,filename,database):
+def extraction(url,data_set,seen,today_date,filename,database,batch):
     seen = set()
     soup = get_content(url,'lxml')
     all_items = soup.find_all('item')
@@ -38,6 +38,7 @@ def extraction(url,data_set,seen,today_date,filename,database):
             pubDate = datetime.strptime(pubDate, '%Y %b %d, %I:%M%p')
         pubDate = pubDate.strftime("%m/%d/%Y %H:%M:%S")
         article['pubDate'] = pubDate
+        article['Batch'] = batch
         article['description'] = cleanhtml(list_item.find('p').get_text().replace("\n", ' ').strip(' '))
         article['source'] ="Benzinga"
         # print( article['description'] )
@@ -58,7 +59,7 @@ def extraction(url,data_set,seen,today_date,filename,database):
                     else:    
                         arti = timenow+ ','+ article['pubDate'] + ',' +article['source'] +','+article['title']+","+ str(article['link']) + \
                         ',' + article['description'] + ',' + article['label_for_article_name']  + ',' + article['label_description']  + \
-                        ',' + article['Possible_ER_from_Article_Name'] + ','+ article["possible_ER_from_Comprehend"]
+                        ',' + article['Possible_ER_from_Article_Name'] + ','+ article["possible_ER_from_Comprehend"] +','+article['Batch']
                         
                         rf.write(arti+'\n')
                         if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:

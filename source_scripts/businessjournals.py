@@ -16,7 +16,7 @@ url = 'https://rss.bizjournals.com/feed/a929a870f195ce40f27d7ff10f1585d09c18ee6e
 sys.path.append(os.path.abspath("..\\boto3"))
 from split_db_sources import *
 
-def main_businessjournals(data_set,today_date,filename,database):
+def main_businessjournals(data_set,today_date,filename,database,batch):
     seen = set()
     soup = get_content(url,None)
     all_items = soup.find_all('item')
@@ -31,6 +31,7 @@ def main_businessjournals(data_set,today_date,filename,database):
         pubDate = datetime.strptime(pubDate, '%a, %d %b %Y %H:%M:%S')
         pubDate = pubDate.strftime("%m/%d/%Y %H:%M:%S")
         article['pubDate'] = pubDate
+        article['batch'] = batch
         description = all_items[idx].find('description')
         article['description']  = cleanhtml(description.get_text())
         article['source'] = 'BusinessJournal'
@@ -58,7 +59,7 @@ def main_businessjournals(data_set,today_date,filename,database):
                     else:
                         arti = timenow+ ','+ article['pubDate'] + ',' +article['source'] +','+article['title']+","+ str(article['link']) + \
                         ',' + article['description'] + ',' + article['label_for_article_name']  + ',' + article['label_description']  + \
-                        ',' + article['Possible_ER_from_Article_Name'] + ','+ article["possible_ER_from_Comprehend"]
+                        ',' + article['Possible_ER_from_Article_Name'] + ','+ article["possible_ER_from_Comprehend"]+','+article['batch']
                         
                         rf.write(arti+'\n')
                         if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:

@@ -15,7 +15,7 @@ from labeling import *
 sys.path.append(os.path.abspath("..\\boto3"))
 from split_db_sources import *
 
-def extraction(driver,key,url,data_set,seen,today,filename,database):
+def extraction(driver,key,url,data_set,seen,today,filename,database,batch):
     
     driver.get(url)
     driver.implicitly_wait(100)
@@ -44,6 +44,7 @@ def extraction(driver,key,url,data_set,seen,today,filename,database):
         description = all_items[i].find('div',{'class':'entry-content'}).get_text().replace('\n','')
         article['description']  = cleanhtml(description)
         article['source'] = "Crunchbase News-"+key
+        article['batch'] =batch
         all_articles.append(article)
         article = {}
     # print(all_articles)
@@ -61,7 +62,7 @@ def extraction(driver,key,url,data_set,seen,today,filename,database):
                     else:
                         arti = timenow+ ','+ article['pubDate'] + ',' +article['source'] +','+article['title']+","+ str(article['link']) + \
                         ',' + article['description'] + ',' + article['label_for_article_name']  + ',' + article['label_description']  + ',' \
-                        + article['Possible_ER_from_Article_Name'] +','+ article["possible_ER_from_Comprehend"]
+                        + article['Possible_ER_from_Article_Name'] +','+ article["possible_ER_from_Comprehend"]+','+article['batch']
                         
                         rf.write(arti+'\n')
                         if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:
@@ -72,7 +73,7 @@ def extraction(driver,key,url,data_set,seen,today,filename,database):
          
 
 
-def main_cb_news(driver,data_set,today,filename,database):
+def main_cb_news(driver,data_set,today,filename,database,batch):
 
     seen = set()
     urls ={'Business':'https://news.crunchbase.com/sections/business/',
@@ -83,4 +84,4 @@ def main_cb_news(driver,data_set,today,filename,database):
     }
     
     for key in urls:
-        extraction(driver,key,urls[key],data_set,seen,today,filename,database)   
+        extraction(driver,key,urls[key],data_set,seen,today,filename,database,batch)   

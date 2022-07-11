@@ -15,7 +15,7 @@ url = 'http://feeds.feedburner.com/vcnewsdaily'
 sys.path.append(os.path.abspath("..\\boto3"))
 from split_db_sources import *
 
-def main_VCN(data_set,today,filename,database):
+def main_VCN(data_set,today,filename,database,batch):
     seen = set()
     soup = get_content(url,None)
     # print(soup)
@@ -31,6 +31,7 @@ def main_VCN(data_set,today,filename,database):
         pubDate = datetime.strptime(pubDate, '%d %b %Y %H:%M:%S')
         pubDate = pubDate.strftime("%m/%d/%Y %H:%M:%S")
         article['pubDate'] = pubDate
+        article['batch'] = batch
         article['description'] = cleanhtml(all_items[idx].find('description').get_text())
         article['source'] = 'VCNews'
         all_articles.append(article)
@@ -52,7 +53,7 @@ def main_VCN(data_set,today,filename,database):
                     else:
                         arti = timenow+ ','+ article['pubDate'] + ',' +article['source'] +','+article['title']+","+ str(article['link']) + \
                         ',' + article['description'] + ',' + article['label_for_article_name']  + ',' + article['label_description']  + ','\
-                        + article['Possible_ER_from_Article_Name']+','+ article["possible_ER_from_Comprehend"]
+                        + article['Possible_ER_from_Article_Name']+','+ article["possible_ER_from_Comprehend"]+','+article['batch'] 
                         rf.write(arti+'\n')
                         if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:
                             create_file_bankruptcy_IPO(today_date, arti)

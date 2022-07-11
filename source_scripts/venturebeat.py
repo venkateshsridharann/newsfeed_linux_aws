@@ -13,7 +13,7 @@ url = 'https://venturebeat.com/feed/'
 sys.path.append(os.path.abspath("..\\boto3"))
 from split_db_sources import *
 
-def main_venturebeat(data_set,today,filename,database):
+def main_venturebeat(data_set,today,filename,database,batch):
    
     seen =set()
     soup = get_content(url,None)
@@ -32,6 +32,7 @@ def main_venturebeat(data_set,today,filename,database):
         article['pubDate'] = pubDate
         article['description'] = cleanhtml(all_items[idx].find('description').get_text())
         article['source'] = 'Venturebeat'
+        article['batch'] = batch
         # print(article)
         all_articles.append(article)
         article = {}
@@ -52,7 +53,7 @@ def main_venturebeat(data_set,today,filename,database):
                     else:
                         arti = timenow+ ','+ article['pubDate'] + ',' +article['source'] +','+article['title']+","+ str(article['link']) + \
                         ',' + article['description'] + ',' + article['label_for_article_name']  + ',' + article['label_description']  + ',' \
-                        + article['Possible_ER_from_Article_Name'] +','+ article["possible_ER_from_Comprehend"]
+                        + article['Possible_ER_from_Article_Name'] +','+ article["possible_ER_from_Comprehend"]+','+article['batch'] 
                         rf.write(arti+'\n')
                         if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:
                             create_file_bankruptcy_IPO(today_date, arti)

@@ -20,7 +20,7 @@ from labeling import *
 
 driver = webdriver.Firefox()
 
-def main_axios(driver,data_set,today_date,filename,database):
+def main_axios(driver,data_set,today_date,filename,database,batch):
      
     driver.get('https://www.axios.com/newsletters/axios-pro-rata')
     driver.implicitly_wait(100)
@@ -53,6 +53,7 @@ def main_axios(driver,data_set,today_date,filename,database):
                             d['link'] = deal.find('a').get_text()          
                         d['pubDate'] = timenow
                         d['source'] = 'Axios'
+                        d['Batch'] = batch
                         article = label_creator(d)
                         nkw = '(No Keywords detect)'
                         if article['label_for_article_name'] == nkw and article['label_description'] == nkw:
@@ -60,7 +61,7 @@ def main_axios(driver,data_set,today_date,filename,database):
                         else:
                             arti = timenow+ ','+ article['pubDate'] + ',' +article['source'] +','+article['title']+","+ str(article['link']) + \
                             ',' + article['description'] + ',' + article['label_for_article_name']  + ',' + article['label_description']  + ',' \
-                            + article['Possible_ER_from_Article_Name'] + ','+ article["possible_ER_from_Comprehend"]
+                            + article['Possible_ER_from_Article_Name'] + ','+ article["possible_ER_from_Comprehend"] +','+article['Batch']
                             rf.write(arti+'\n')
                             if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:
                                 create_file_bankruptcy_IPO(today_date, arti)

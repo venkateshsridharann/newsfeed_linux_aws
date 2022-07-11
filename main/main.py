@@ -28,6 +28,7 @@ today_date = str(datetime.now())[:10]
 data_set = set()
 if not os.path.exists('..\database'):
     os.makedirs('..\database')
+    
 if not os.path.exists('..\cache\previously_seen'):
     os.makedirs('..\cache\previously_seen')
 filename = '..\cache\previously_seen\previously_seen_{}.csv'.format(today_date[:7])
@@ -37,10 +38,18 @@ bankruptcy_ipo = '..\database\\bankruptcy_ipo_{}.csv'.format(today_date)
 # if not os.path.isfile(filename):
 #     first_time_today = download_from_s3()
     
+if os.path.isfile(database):
+    file = open(database, 'r') 
+    data = file.read()
+    data = [x for x in data.split('\n') if x!=''][-1]
+    batch = [x for x in data.split(',') if x!=''][-1]
+    batch = str(int(batch)+1)
+else :
+    batch = '1'
+
 if os.path.isfile(filename):
     file = open(filename, 'r') 
-    data = file.read()
-    data = data.split('\n')[:-1]
+    data = file.read().split('\n')
     # for tab seperated inputs 
     for x in data:
         x= x.split(',')
@@ -53,41 +62,38 @@ if os.path.isfile(filename):
         data_set.add(x)
     file.close()
 
-
 if not os.path.isfile(database):
         file = open(database, 'w')
-        file.write("Date_Collected,Date_Published,Source,Article_Name,Article_Link,Description,\
-                    Keyword_label_article_name,Keyword_label_description,ER_Spacy,ML_label_Article_Name\n")
+        file.write("Date_Collected,Date_Published,Source,Article_Name,Article_Link,Description,Keyword_label_article_name,Keyword_label_description,ER_Spacy,ML_label_Article_Name,Batch\n")
         file.close() 
 if not os.path.isfile(bankruptcy_ipo):
         file = open(bankruptcy_ipo, 'w')
-        file.write("Date_Collected,Date_Published,Source,Article_Name,Article_Link,Description,\
-                    Keyword_label_article_name,Keyword_label_description,ER_Spacy,ML_label_Article_Name\n")
+        file.write("Date_Collected,Date_Published,Source,Article_Name,Article_Link,Description,Keyword_label_article_name,Keyword_label_description,ER_Spacy,ML_label_Article_Name,Batch\n")
         file.close() 
 
 # calling all source scripts sequentially
-main_FinSME(data_set,today_date,filename,database)
-main_businesswire(data_set,today_date,filename,database)
-main_techcrunch(data_set,today_date,filename,database)
-main_VCN(data_set,today_date,filename,database)
-main_venturebeat(data_set,today_date,filename,database)
-main_prnews(data_set,today_date,filename,database)
-main_businessjournals(data_set,today_date,filename,database)
-main_vcaonline(data_set,today_date,filename,database)    
-main_globenewswire(data_set,today_date,filename,database)
-main_pehub_new(driver,data_set,today_date,filename,database)
-## benzinga needs fixes
-## main_benzinga(data_set,today_date,filename,database)
+main_FinSME(data_set,today_date,filename,database,batch)
+main_businesswire(data_set,today_date,filename,database,batch)
+main_techcrunch(data_set,today_date,filename,database,batch)
+main_VCN(data_set,today_date,filename,database,batch)
+main_venturebeat(data_set,today_date,filename,database,batch)
+main_prnews(data_set,today_date,filename,database,batch)
+main_businessjournals(data_set,today_date,filename,database,batch)
+main_vcaonline(data_set,today_date,filename,database,batch)    
+main_globenewswire(data_set,today_date,filename,database,batch)
+main_pehub_new(driver,data_set,today_date,filename,database,batch)
+        # ## benzinga needs fixes
+        # ## main_benzinga(data_set,today_date,filename,database)
 
-# if first_time_today == True:
-main_cb_news(driver,data_set,today_date,filename,database)
-## not working needs changes
-## main_fortune(driver,today_date,database)
-## peprofessonal changed
-## main_pep(driver,data_set,today_date,filename,database)
+        # # if first_time_today == True:
+main_cb_news(driver,data_set,today_date,filename,database,batch)
+        # ## not working needs changes
+        # ## main_fortune(driver,today_date,database)
+        # ## peprofessonal changed
+        # ## main_pep(driver,data_set,today_date,filename,database)
 
-# axios changed
-## main_axios(driver,data_set,today_date,filename,database)    
+        # # axios changed
+        # ## main_axios(driver,data_set,today_date,filename,database)    
 
-# upload_to_s3(today_date)
+        # # upload_to_s3(today_date)
 driver.quit()

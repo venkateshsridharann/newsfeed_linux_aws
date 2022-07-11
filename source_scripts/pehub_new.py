@@ -16,7 +16,7 @@ sys.path.append(os.path.abspath("..\\boto3"))
 from split_db_sources import *
 
 
-def pehub_page_numbered(pg, driver, data_set, today, filename,database):
+def pehub_page_numbered(pg, driver, data_set, today, filename,database,batch):
     if pg ==1 :
         driver.get('https://www.pehub.com/news-briefs/')
     else:
@@ -37,6 +37,7 @@ def pehub_page_numbered(pg, driver, data_set, today, filename,database):
         pubDate = datetime.strptime(pubDate, '%Y-%m-%dT%H:%M:%S')
         pubDate = pubDate.strftime("%m/%d/%Y %H:%M:%S")
         article['pubDate']  = pubDate
+        article['batch'] = batch
         description = cleanhtml(all_items[idx].find('div', {'class':'td-excerpt'}).get_text())
         article['description'] = description.strip(',')
         article['source'] = 'PEHub'
@@ -59,7 +60,7 @@ def pehub_page_numbered(pg, driver, data_set, today, filename,database):
                     else:
                         arti = timenow+ ','+ article['pubDate'] + ',' +article['source'] +','+article['title']+","+ str(article['link']) + \
                         ',' + article['description'] + ',' + article['label_for_article_name']  + ',' + article['label_description']  + ',' \
-                        + article['Possible_ER_from_Article_Name'] +','+ article["possible_ER_from_Comprehend"]
+                        + article['Possible_ER_from_Article_Name'] +','+ article["possible_ER_from_Comprehend"]+','+article['batch']
                         rf.write(arti+'\n')
                         if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:
                             create_file_bankruptcy_IPO(today_date, arti)
@@ -67,7 +68,7 @@ def pehub_page_numbered(pg, driver, data_set, today, filename,database):
                         wf2.write(timenow + ',' + article['pubDate'] + ',' +str(article['link'])+'\n') 
                         print(str(i)+ " "+arti[40:60]+'\n')
                 
-def main_pehub_new(driver,data_set,today,filename,database):
+def main_pehub_new(driver,data_set,today,filename,database,batch):
     
     for pg in range(1,6):
-        pehub_page_numbered(pg, driver, data_set,today,filename,database)
+        pehub_page_numbered(pg, driver, data_set,today,filename,database,batch)

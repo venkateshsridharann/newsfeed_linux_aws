@@ -16,7 +16,7 @@ url = 'http://www.finsmes.com/feed'
 sys.path.append(os.path.abspath("..\\boto3"))
 from split_db_sources import *
 
-def main_FinSME(data_set,today_date,filename,database):
+def main_FinSME(data_set,today_date,filename,database,batch):
     seen = set()
     soup = get_content(url,None)
     # print(soup)
@@ -36,6 +36,7 @@ def main_FinSME(data_set,today_date,filename,database):
         article['pubDate'] = pubDate
         description = all_items[idx].find('description')
         article['source'] = 'FinSME'
+        article['batch'] = batch
         article['description']  = cleanhtml(description.get_text())
         article['description'].replace(article['title'],"").replace("article['source']","")
         article['description'] = article['description'].strip()
@@ -44,7 +45,7 @@ def main_FinSME(data_set,today_date,filename,database):
     
     if not os.path.isfile(database):
         file = open(database, 'w')
-        file.write("Date_Collected,Date_Published,Source,Article_Name,Article_Link,Description,Article_Name_label,Article_Description_label,ER_from_Article_Name\n")
+        file.write("Date_Collected,Date_Published,Source,Article_Name,Article_Link,Description,Keyword_label_article_name,Keyword_label_description,ER_Spacy,ML_label_Article_Name,Batch\n")
         file.close()  
     
     with open(database, "a", encoding='utf8') as rf:
@@ -62,7 +63,7 @@ def main_FinSME(data_set,today_date,filename,database):
                     else:
                         arti = timenow+ ','+ article['pubDate'] + ',' +article['source'] +','+article['title']+","+ str(article['link']) + \
                         ',' + article['description'] + ',' + article['label_for_article_name']  + ',' + article['label_description']  + ',' \
-                        + article['Possible_ER_from_Article_Name'] +','+ article["possible_ER_from_Comprehend"]
+                        + article['Possible_ER_from_Article_Name'] +','+ article["possible_ER_from_Comprehend"]+','+article['batch']
                         rf.write(arti+'\n')
                         if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:
                             create_file_bankruptcy_IPO(today_date, arti)
