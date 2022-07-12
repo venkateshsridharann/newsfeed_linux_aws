@@ -15,7 +15,6 @@ sys.path.append(os.path.abspath("..\\boto3"))
 from split_db_sources import *
 
 def extraction(key, url,data_set,seen,today,filename,database,batch):
-    print(batch)
     soup = get_content(url,None)
     all_items = soup.find_all('item')
     all_articles = []
