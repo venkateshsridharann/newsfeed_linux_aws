@@ -16,7 +16,7 @@ sys.path.append(os.path.abspath("..\labeling"))
 from labeling import *
 
 # sys.path.append(os.path.abspath("..\\boto3"))
-# from split_db_sources import *
+
 
 driver = webdriver.Firefox()
 
@@ -66,6 +66,5 @@ def main_axios(driver,data_set,today_date,filename,database,batch):
                             if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:
                                 create_file_bankruptcy_IPO(today_date, arti)
                             rf.write(arti+'\n')
-                            split_sources(arti)
                             wf2.write(timenow + ',' + d['pubDate'] + ',' +str(d['link'])+'\n')  
                         d ={}

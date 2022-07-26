@@ -14,7 +14,7 @@ from labeling import *
 url = 'https://rss.bizjournals.com/feed/a929a870f195ce40f27d7ff10f1585d09c18ee6e/2241?market=all&selectortype=channel&selectorvalue=1,6,2,3,4,13,17,5,9,10,18,7,11,12,14,15,8,16'
 
 sys.path.append(os.path.abspath("..\\boto3"))
-from split_db_sources import *
+
 
 def main_businessjournals(data_set,today_date,filename,database,batch):
     seen = set()
@@ -64,7 +64,6 @@ def main_businessjournals(data_set,today_date,filename,database,batch):
                         rf.write(arti+'\n')
                         if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:
                             create_file_bankruptcy_IPO(today_date, arti)
-                        split_sources(arti)
                         wf2.write(timenow + ',' + article['pubDate'] + ',' +str(article['link'])+'\n')  
                         print(str(i)+ " "+arti[42:60]+'\n')
                 

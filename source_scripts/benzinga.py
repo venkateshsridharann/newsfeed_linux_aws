@@ -13,7 +13,7 @@ sys.path.append(os.path.abspath("..\labeling"))
 from labeling import *
 
 sys.path.append(os.path.abspath("..\\boto3"))
-from split_db_sources import *
+
 
 def extraction(url,data_set,seen,today_date,filename,database,batch):
     seen = set()
@@ -64,7 +64,6 @@ def extraction(url,data_set,seen,today_date,filename,database,batch):
                         rf.write(arti+'\n')
                         if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:
                             create_file_bankruptcy_IPO(today_date, arti)
-                        split_sources(arti)
                         wf2.write(timenow + ',' + article['pubDate'] + ',' +str(article['link'])+'\n')  
                         print(str(i)+ " "+arti[42:60]+'\n')
 

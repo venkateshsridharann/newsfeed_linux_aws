@@ -11,7 +11,7 @@ from labeling import *
 url = 'https://venturebeat.com/feed/'
 
 sys.path.append(os.path.abspath("..\\boto3"))
-from split_db_sources import *
+
 
 def main_venturebeat(data_set,today,filename,database,batch):
    
@@ -57,6 +57,5 @@ def main_venturebeat(data_set,today,filename,database,batch):
                         rf.write(arti+'\n')
                         if 'IPOs' in article['label_for_article_name']  or 'Bankruptcy' in article['label_for_article_name']:
                             create_file_bankruptcy_IPO(today_date, arti)
-                        split_sources(arti)
                         wf2.write(timenow + ',' + article['pubDate'] + ',' +str(article['link'])+'\n') 
                         print(str(i)+ " "+arti[40:60]+'\n')
