@@ -34,9 +34,7 @@ if not os.path.exists('..\cache\previously_seen'):
 filename = '..\cache\previously_seen\previously_seen_{}.csv'.format(today_date[:7])
 database = '..\database\database_{}.csv'.format(today_date)
 bankruptcy_ipo = '..\database\\bankruptcy_ipo_{}.csv'.format(today_date)
-# handles the 5 days window for duplicate deletion (in already_seen file)
-# if not os.path.isfile(filename):
-#     first_time_today = download_from_s3()
+
     
 if os.path.isfile(database):
     file = open(database, 'r') 
