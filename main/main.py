@@ -1,5 +1,6 @@
-import sys 
 import os
+import sys 
+import time
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -22,10 +23,14 @@ from globenewswire import *
 from PEprofessional import *
 from businessjournals import *
 
-today_date = str(datetime.now())[:10]
+sys.path.append(os.path.abspath("..\\boto"))
+from download_from_aws import *
+from upload_to_aws import *
 
-# first_time_today = False
+
+today_date = str(datetime.now())[:10]
 data_set = set()
+
 if not os.path.exists('..\database'):
     os.makedirs('..\database')
     
@@ -35,7 +40,9 @@ filename = '..\cache\previously_seen\previously_seen_{}.csv'.format(today_date[:
 database = '..\database\database_{}.csv'.format(today_date)
 bankruptcy_ipo = '..\database\\bankruptcy_ipo_{}.csv'.format(today_date)
 
-    
+download_from_s3(today_date)
+
+# calculating batch number based on previous runs
 if os.path.isfile(database):
     file = open(database, 'r') 
     data = file.read()
@@ -45,6 +52,7 @@ if os.path.isfile(database):
 else :
     batch = '1'
 
+# adding previously seen as a set
 if os.path.isfile(filename):
     file = open(filename, 'r') 
     data = file.read().split('\n')
@@ -60,6 +68,7 @@ if os.path.isfile(filename):
         data_set.add(x)
     file.close()
 
+# making blank file with headers for start of day
 if not os.path.isfile(database):
         file = open(database, 'w')
         file.write("Date_Collected,Date_Published,Source,Article_Name,Article_Link,Description,Keyword_label_article_name,Keyword_label_description,ER_Spacy,ML_label_Article_Name,Batch\n")
@@ -92,6 +101,5 @@ main_cb_news(driver,data_set,today_date,filename,database,batch)
 
         # # axios changed
         # ## main_axios(driver,data_set,today_date,filename,database)    
-
-        # # upload_to_s3(today_date)
+upload_to_s3(today_date)
 driver.quit()

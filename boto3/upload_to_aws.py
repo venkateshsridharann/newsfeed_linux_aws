@@ -1,59 +1,42 @@
 import os
-import time
-import glob
+from distutils.command import upload
 import boto3
-import calendar
-from datetime import datetime
-s3 = boto3.resource('s3')    
 
+s3 = boto3.client('s3')
 
-def upload_previously_seen(to_delete,today):
-    if os.path.isfile('..\cache\previously_seen\previously_seen_{}.csv'.format(today)):
-        prev_file = '..\cache\previously_seen\previously_seen_{}.csv'.format(today)
-        previously_seen = open(prev_file, 'rb')
-        s3.Bucket('privco-news-collection').put_object(Key='Database_with_label/Previously_seen/'+prev_file[-30:], Body=previously_seen)
-        for filename in os.listdir('..\cache\previously_seen\\'):
-            to_delete.append('..\cache\previously_seen\\'+filename)
-        
+def upload_previous_to_aws(date):
+    try:
+        if os.path.isfile('..\cache\previously_seen\previously_seen_{}.csv'.format(date)):
+            prev_file = 'previously_seen_{}.csv'.format(date)
+            previously_seen = open("..\cache\previously_seen\\"+prev_file, 'rb')
+            boto3.resource('s3').Bucket('aws-venky-newsfeeds').put_object(Key='previous/'+prev_file, Body=previously_seen)
+            
 
-def upload_database(to_delete,today):
-    year,month,day = today.split('-')
-    month = calendar.month_name[int(month)]
+    except Exception as e:
+        print(e)
+        print('error')
+
+def upload_database_to_aws(date):
+    try:
+        if os.path.isfile('..\database\database_{}.csv'.format(date)):
+            database_file = 'database_{}.csv'.format(date)
+            database = open("..\database\\"+database_file, 'rb')
+            boto3.resource('s3').Bucket('aws-venky-newsfeeds').put_object(Key='database/'+database_file, Body=database)
+            os.remove('..\database\\database_{}.csv'.format(date))
     
-    if os.path.isfile('..\database\database_{}.csv'.format(today)):
-        complete_db_file = '..\database\database_{}.csv'.format(today)
-        database_complete = open(complete_db_file, 'rb')
-        s3.Bucket('privco-news-collection').put_object(Key='Database_with_label/Daily_consolidated_database/'+complete_db_file[-23:], Body=database_complete)
-        to_delete.append(complete_db_file)
+    except Exception as e:
+        print(e)
+        print('error')
 
-    if os.path.isfile('..\database\\bankruptcy_ipo_{}.csv'.format(today)):
-        bankruptcy_ipo_db_file = '..\database\\bankruptcy_ipo_{}.csv'.format(today)
-        database_complete = open(bankruptcy_ipo_db_file, 'rb')
-        s3.Bucket('privco-news-collection').put_object(Key='Database_with_label/Daily_consolidated_database/Bankruptcy&IPO/'+bankruptcy_ipo_db_file[-29:], Body=database_complete)
-        to_delete.append(bankruptcy_ipo_db_file)
-
-    for filename in os.listdir('..\\boto3\{}\{}\{}'.format(year,month,day)):
-        db_file = '..\\boto3\{}\{}\{}\\{}'.format(year,month,day,filename)
-        database = open(db_file, 'rb')
-        s3.Bucket('privco-news-collection').put_object(Key='Database_with_label/Database/{}/{}/{}/{}'.format(year,month,day,filename), Body=database)
-        to_delete.append(db_file)
-    
-
-def upload_to_s3(today):
-    to_delete = []
-    year,month,day = today.split('-')
-    month = calendar.month_name[int(month)]
-    upload_previously_seen(to_delete,today)
-    upload_database(to_delete,today)
-    for x in to_delete:
-        if os.path.isfile(x):
-            os.remove(x)
-
-    os.rmdir('..\cache\previously_seen')
-    os.rmdir('..\database')
-    os.rmdir('..\\boto3\{}\{}\{}'.format(year,month,day))
-    os.rmdir('..\\boto3\{}\{}'.format(year,month))
-    os.rmdir('..\\boto3\{}'.format(year))
+def upload_to_s3(date):
+    upload_database_to_aws(date)
+    upload_previous_to_aws(date[:-3])
+    if os.path.isfile('..\database\database_{}.csv'.format(date)):
+        os.remove('..\database\\database_{}.csv'.format(date))  
+    if os.path.isfile('..\cache\previously_seen\previously_seen_{}.csv'.format(date[:-3])):
+        os.remove('..\cache\previously_seen\previously_seen_{}.csv'.format(date[:-3]))
+    # os.rmdir('..\cache\previously_seen')
+    # os.rmdir('..\database')
     
 
     
