@@ -27,7 +27,7 @@ def cleanhtml(raw_html):
   return cleantext
 
 def create_file_bankruptcy_IPO(today_date, arti):
-  bank = '..\database\\bankruptcy_ipo_{}.csv'.format(today_date)
+  bank = '..\\tmp\\bankruptcy_ipo_{}.csv'.format(today_date)
   with open(bank, "a", encoding="utf8") as bnk :
     bnk.write(arti+'\n')
 

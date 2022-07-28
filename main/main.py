@@ -31,14 +31,12 @@ from upload_to_aws import *
 today_date = str(datetime.now())[:10]
 data_set = set()
 
-if not os.path.exists('..\database'):
-    os.makedirs('..\database')
+if not os.path.exists('..\\tmp'):
+    os.makedirs('..\\tmp')
     
-if not os.path.exists('..\cache\previously_seen'):
-    os.makedirs('..\cache\previously_seen')
-filename = '..\cache\previously_seen\previously_seen_{}.csv'.format(today_date[:7])
-database = '..\database\database_{}.csv'.format(today_date)
-bankruptcy_ipo = '..\database\\bankruptcy_ipo_{}.csv'.format(today_date)
+filename = '..\\tmp\previously_seen_{}.csv'.format(today_date[:7])
+database = '..\\tmp\database_{}.csv'.format(today_date)
+bankruptcy_ipo = '..\\tmp\\bankruptcy_ipo_{}.csv'.format(today_date)
 
 download_from_s3(today_date)
 
