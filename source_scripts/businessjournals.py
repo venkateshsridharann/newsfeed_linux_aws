@@ -3,7 +3,7 @@ import sys
 from common_scripts import *
 from datetime import datetime
 
-sys.path.append(os.path.abspath("..\labeling"))
+sys.path.append(os.path.abspath("../labeling"))
 from labeling import *
 
 url = 'https://rss.bizjournals.com/feed/a929a870f195ce40f27d7ff10f1585d09c18ee6e/2241?market=all&selectortype=channel&selectorvalue=1,6,2,3,4,13,17,5,9,10,18,7,11,12,14,15,8,16'

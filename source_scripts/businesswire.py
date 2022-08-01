@@ -4,7 +4,7 @@ from lxml import html
 from common_scripts import *
 from datetime import datetime
 
-sys.path.append(os.path.abspath("..\labeling"))
+sys.path.append(os.path.abspath("../labeling"))
 from labeling import *
 # add all sourses
 urls = {'Merger':'https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFtRWA==',
@@ -13,7 +13,6 @@ urls = {'Merger':'https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFtRWA
         'Divestiture':'https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeGVtWXQ==',
         'Bankruptcy':'https://www.businesswire.com/portal/site/home/news/subject/?vnsId=31318'}
 
-sys.path.append(os.path.abspath("..\\boto3"))
 
   
 def extraction(i,action, url,data_set,seen,today,filename,database,batch):

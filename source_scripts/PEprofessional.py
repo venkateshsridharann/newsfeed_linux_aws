@@ -5,11 +5,8 @@ import time  as t
 from common_scripts import *
 from datetime import datetime
 from bs4 import BeautifulSoup
-sys.path.append(os.path.abspath("..\labeling"))
+sys.path.append(os.path.abspath("../labeling"))
 from labeling import *
-
-sys.path.append(os.path.abspath("..\\boto3"))
-
 
 def get_articles_in_all_pages(driver,pg,data_set,seen,today,filename,database):
     url = 'https://peprofessional.com/category/news/all-news/page/'+str(pg)+'/'

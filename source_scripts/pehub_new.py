@@ -6,12 +6,8 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 
 
-sys.path.append(os.path.abspath("..\labeling"))
+sys.path.append(os.path.abspath("../labeling"))
 from labeling import *
-
-sys.path.append(os.path.abspath("..\\boto3"))
-
-
 
 def pehub_page_numbered(pg, driver, data_set, today, filename,database,batch):
     if pg ==1 :

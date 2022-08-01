@@ -3,10 +3,10 @@ import sys
 from datetime import datetime
 from selenium import webdriver
 
-sys.path.append(os.path.abspath("..\labeling"))
+sys.path.append(os.path.abspath("../labeling"))
 from ml_label import *
 
-sys.path.append(os.path.abspath("..\source_scripts"))
+sys.path.append(os.path.abspath("../source_scripts"))
 from axios import *
 from finSME import *
 from prnews import *
@@ -23,7 +23,7 @@ from globenewswire import *
 from PEprofessional import *
 from businessjournals import *
 
-sys.path.append(os.path.abspath("..\\boto"))
+sys.path.append(os.path.abspath("../boto"))
 from download_from_aws import *
 from upload_to_aws import *
 
@@ -32,12 +32,12 @@ driver = webdriver.Firefox(executable_path="geckodriver.exe")
 today_date = str(datetime.now())[:10]
 data_set = set()
 
-if not os.path.exists('..\\tmp'):
-    os.makedirs('..\\tmp')
+if not os.path.exists('../tmp'):
+    os.makedirs('../tmp')
     
-filename = '..\\tmp\previously_seen_{}.csv'.format(today_date[:7])
-database = '..\\tmp\database_{}.csv'.format(today_date)
-bankruptcy_ipo = '..\\tmp\\bankruptcy_ipo_{}.csv'.format(today_date)
+filename = '../tmp/previously_seen_{}.csv'.format(today_date[:7])
+database = '../tmp/database_{}.csv'.format(today_date)
+bankruptcy_ipo = '../tmp/bankruptcy_ipo_{}.csv'.format(today_date)
 
 download_from_s3(today_date)
 

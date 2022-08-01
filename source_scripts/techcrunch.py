@@ -6,10 +6,8 @@ from common_scripts import *
 from datetime import datetime
 
 
-sys.path.append(os.path.abspath("..\labeling"))
+sys.path.append(os.path.abspath("../labeling"))
 from labeling import *
-
-sys.path.append(os.path.abspath("..\\boto3"))
 
 
 url = 'http://feeds.feedburner.com/Techcrunch'

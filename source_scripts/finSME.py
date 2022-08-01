@@ -3,12 +3,10 @@ import sys
 from common_scripts import *
 from datetime import datetime
 
-sys.path.append(os.path.abspath("..\labeling"))
+sys.path.append(os.path.abspath("../labeling"))
 from labeling import *
 
 url = 'http://www.finsmes.com/feed'
-
-sys.path.append(os.path.abspath("..\\boto3"))
 
 
 def main_FinSME(data_set,today_date,filename,database,batch):

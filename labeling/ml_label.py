@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 
 def ml_label(date):
-    pickle_file = '.\pickle_file.pkl'
+    pickle_file = './pickle_file.pkl'
     model_ = pickle.load(open(pickle_file, 'rb'))
     model=model_[0]
     fitted_vectorizer = model_[1]
@@ -12,7 +12,7 @@ def ml_label(date):
     category_id_df = pd.DataFrame(data)
     
     file = "database_{}".format(date)
-    df = pd.read_csv("..\\tmp\{}.csv".format(file), error_bad_lines=False)
+    df = pd.read_csv("../tmp/{}.csv".format(file), error_bad_lines=False)
     articles = df['Article_Name'].values.tolist()
     pred_Y = []
     for article in articles:
@@ -23,4 +23,4 @@ def ml_label(date):
     df['ML_label_Article_Name'] = se.values
     df = df.sort_values(['ML_label_Article_Name', 'Date_Collected'])
     header = ['ML_label_Article_Name','Article_Name','Source','Article_Link','Description','Batch','Date_Collected','Date_Published','Keyword_label_article_name','Keyword_label_description','ER_Spacy']
-    df.to_csv("..\\tmp\{}_.csv".format(file), columns = header, index=False)
+    df.to_csv("../tmp/{}_.csv".format(file), columns = header, index=False)

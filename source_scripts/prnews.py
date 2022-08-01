@@ -6,11 +6,8 @@ import os.path
 from common_scripts import *
 from datetime import datetime
 
-sys.path.append(os.path.abspath("..\labeling"))
+sys.path.append(os.path.abspath("../labeling"))
 from labeling import *
-
-sys.path.append(os.path.abspath("..\\boto3"))
-
 
 def extraction(key, url,data_set,seen,today,filename,database,batch):
     soup = get_content(url,None)
