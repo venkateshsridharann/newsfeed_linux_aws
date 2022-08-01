@@ -2,7 +2,6 @@ import re
 import unidecode
 import requests
 from bs4 import BeautifulSoup
-from datetime import time, datetime
 
 
 

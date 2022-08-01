@@ -1,12 +1,7 @@
-import re
 import os
 import sys
-import time 
-import requests
-from lxml import html
 from common_scripts import *
 from datetime import datetime
-from bs4 import BeautifulSoup
 
 sys.path.append(os.path.abspath("..\labeling"))
 from labeling import *

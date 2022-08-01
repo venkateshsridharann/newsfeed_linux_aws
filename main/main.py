@@ -1,10 +1,10 @@
 import os
 import sys 
-import time
 from datetime import datetime
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
+
+sys.path.append(os.path.abspath("..\labeling"))
+from ml_label import *
 
 sys.path.append(os.path.abspath("..\source_scripts"))
 from axios import *
@@ -27,6 +27,7 @@ sys.path.append(os.path.abspath("..\\boto"))
 from download_from_aws import *
 from upload_to_aws import *
 
+driver = webdriver.Firefox(executable_path="geckodriver.exe")
 
 today_date = str(datetime.now())[:10]
 data_set = set()
@@ -89,15 +90,14 @@ main_globenewswire(data_set,today_date,filename,database,batch)
 main_pehub_new(driver,data_set,today_date,filename,database,batch)
         # ## benzinga needs fixes
         # ## main_benzinga(data_set,today_date,filename,database)
-
         # # if first_time_today == True:
 main_cb_news(driver,data_set,today_date,filename,database,batch)
         # ## not working needs changes
         # ## main_fortune(driver,today_date,database)
         # ## peprofessonal changed
         # ## main_pep(driver,data_set,today_date,filename,database)
-
         # # axios changed
         # ## main_axios(driver,data_set,today_date,filename,database)    
+ml_label(today_date)
 upload_to_s3(today_date)
 driver.quit()

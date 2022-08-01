@@ -1,6 +1,5 @@
 import requests
 from datetime import time, datetime
-from bs4 import BeautifulSoup
 from common_scripts import *
 
 url = 'https://static.crunchbase.com/daily/content_share.html'

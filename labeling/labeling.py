@@ -1,23 +1,12 @@
-import os
-import nltk
 import json
 import boto3
 import spacy
 import pandas as pd
-import pickle
-import en_core_web_sm
-from nltk import ne_chunk
-from pprint import pprint
-from spacy import displacy
 from datetime import datetime
-from collections import Counter
 from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.stem import PorterStemmer, WordNetLemmatizer
-from nltk.tokenize import sent_tokenize, word_tokenize, PunktSentenceTokenizer
+from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
 
-# nltk.download('stopwords')
-# nltk.download('punkt')
 
 data = {'Label':['Funding', 'Acquisition', 'Merger', 'Growth Equity','IPO','Noise'],
         'Label_id':[0,1,2,3,4,5]}

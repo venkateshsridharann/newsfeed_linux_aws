@@ -4,7 +4,6 @@ import sys
 import os
 from common_scripts import *
 from datetime import datetime
-from bs4 import BeautifulSoup
 
 
 sys.path.append(os.path.abspath("..\labeling"))

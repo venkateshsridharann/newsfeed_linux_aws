@@ -1,13 +1,10 @@
 import os
 import re
 import sys
-import requests
 from common_scripts import *
 from datetime import datetime
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
+
 
 sys.path.append(os.path.abspath("..\labeling"))
 from labeling import *

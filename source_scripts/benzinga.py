@@ -1,22 +1,13 @@
-import re
 import os
 import sys
-import time 
-import requests
-from lxml import html
 from common_scripts import *
 from datetime import datetime
-from bs4 import BeautifulSoup
-
 
 sys.path.append(os.path.abspath("..\labeling"))
 from labeling import *
 
-sys.path.append(os.path.abspath("..\\boto3"))
-
-
 def extraction(url,data_set,seen,today_date,filename,database,batch):
-    seen = set()
+    # seen = set()
     soup = get_content(url,'lxml')
     all_items = soup.find_all('item')
     all_articles = []
