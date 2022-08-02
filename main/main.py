@@ -50,7 +50,10 @@ if os.path.isfile(database):
     data = file.read()
     data = [x for x in data.split('\n') if x!=''][-1]
     batch = [x for x in data.split(',') if x!=''][-1]
-    batch = str(int(batch)+1)
+    try:
+        batch = str(int(batch)+1)
+    except:
+        batch = '1' 
 else :
     batch = '1'
 
