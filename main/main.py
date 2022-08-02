@@ -2,11 +2,12 @@ import os
 import sys 
 from datetime import datetime
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 
-sys.path.append(os.path.abspath("../labeling"))
+sys.path.append(os.path.abspath("/home/ec2-user/newsfeeds/labeling"))
 from ml_label import *
 
-sys.path.append(os.path.abspath("../source_scripts"))
+sys.path.append(os.path.abspath("/home/ec2-user/newsfeeds/source_scripts"))
 from axios import *
 from finSME import *
 from prnews import *
@@ -23,21 +24,23 @@ from globenewswire import *
 from PEprofessional import *
 from businessjournals import *
 
-sys.path.append(os.path.abspath("../boto"))
+sys.path.append(os.path.abspath("/home/ec2-user/newsfeeds/boto3"))
 from download_from_aws import *
 from upload_to_aws import *
 
-driver = webdriver.Firefox(executable_path="geckodriver.exe")
+options = Options()
+options.headless = True
+driver = webdriver.Firefox(executable_path ='geckodriver',options=options)
 
 today_date = str(datetime.now())[:10]
 data_set = set()
 
-if not os.path.exists('../tmp'):
-    os.makedirs('../tmp')
+if not os.path.exists('/home/ec2-user/newsfeeds/tmp'):
+    os.makedirs('/home/ec2-user/newsfeeds/tmp')
     
-filename = '../tmp/previously_seen_{}.csv'.format(today_date[:7])
-database = '../tmp/database_{}.csv'.format(today_date)
-bankruptcy_ipo = '../tmp/bankruptcy_ipo_{}.csv'.format(today_date)
+filename = '/home/ec2-user/newsfeeds/tmp/previously_seen_{}.csv'.format(today_date[:7])
+database = '/home/ec2-user/newsfeeds/tmp/database_{}.csv'.format(today_date)
+bankruptcy_ipo = '/home/ec2-user/newsfeeds/tmp/bankruptcy_ipo_{}.csv'.format(today_date)
 
 download_from_s3(today_date)
 

@@ -6,7 +6,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 
 
-sys.path.append(os.path.abspath("../labeling"))
+sys.path.append(os.path.abspath("/home/ec2-user/newsfeeds/labeling"))
 from labeling import *
 
 def pehub_page_numbered(pg, driver, data_set, today, filename,database,batch):

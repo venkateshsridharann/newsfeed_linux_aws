@@ -4,7 +4,7 @@ from lxml import html
 from common_scripts import *
 from datetime import datetime
 
-sys.path.append(os.path.abspath("../labeling"))
+sys.path.append(os.path.abspath("/home/ec2-user/newsfeeds/labeling"))
 from labeling import *
 # add all sourses
 urls = {'Merger':'https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFtRWA==',

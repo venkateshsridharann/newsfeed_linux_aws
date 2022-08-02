@@ -6,7 +6,7 @@ import os.path
 from common_scripts import *
 from datetime import datetime
 
-sys.path.append(os.path.abspath("../labeling"))
+sys.path.append(os.path.abspath("/home/ec2-user/newsfeeds/labeling"))
 from labeling import *
 
 def extraction(key, url,data_set,seen,today,filename,database,batch):
@@ -50,16 +50,7 @@ def extraction(key, url,data_set,seen,today,filename,database,batch):
                             create_file_bankruptcy_IPO(today_date, arti)
                         wf2.write(timenow + ',' + article['pubDate'] + ',' +str(article['link'])+'\n') 
                         print(str(i)+ " "+arti[40:60]+'\n')
-                    
-# cases where prnews.py is run as standalone, otherwise data_set comes from main.py                       # 
-data_set = set()
-if os.path.isfile('..\cache\previously_seen3.txt'):
-    file = open('..\cache\previously_seen3.txt', 'r') 
-    data = file.read()
-    data = data.split('\n')[:-1]
-    data_set = set(data)
-    file.close()
-    
+                        
 
 def main_prnews(data_set,today,filename,database,batch):
     seen = set()

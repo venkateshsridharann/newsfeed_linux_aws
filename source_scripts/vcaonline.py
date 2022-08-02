@@ -4,7 +4,7 @@ import sys
 from common_scripts import *
 from datetime import datetime
 
-sys.path.append(os.path.abspath("../labeling"))
+sys.path.append(os.path.abspath("/home/ec2-user/newsfeeds/labeling"))
 from labeling import *
 url = 'https://www.vcaonline.com/news/rss/index.asp'
 

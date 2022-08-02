@@ -5,7 +5,7 @@ import time  as t
 from common_scripts import *
 from datetime import datetime
 from bs4 import BeautifulSoup
-sys.path.append(os.path.abspath("../labeling"))
+sys.path.append(os.path.abspath("/home/ec2-user/newsfeeds/labeling"))
 from labeling import *
 
 def get_articles_in_all_pages(driver,pg,data_set,seen,today,filename,database):
