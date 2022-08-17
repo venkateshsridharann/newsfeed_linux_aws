@@ -30,7 +30,7 @@ from upload_to_aws import *
 
 options = Options()
 options.headless = True
-driver = webdriver.Firefox(executable_path ='geckodriver',options=options)
+driver = webdriver.Firefox(options=options)
 
 today_date = str(datetime.now())[:10]
 data_set = set()
